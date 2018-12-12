@@ -40,6 +40,19 @@ projects:
   - title: Typography
     image: /images/alexander-andrews-458492-unsplash.jpg
     link: '/portfolio/'
+    
+    
+projects-ds:
+  - title: Convolutional
+    image: /images/author-image.jpg
+    link: '/blog/'
+  - title: Regression
+    image: /images/author-image.jpg
+    link: '/blog/'
+  - title: Markov
+    image: /images/author-image.jpg
+    link: '/blog/'
+  
 
 work:
   - title: Minimalist
