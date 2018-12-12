@@ -24,7 +24,7 @@ The correlation matrix also showed that in 2017 both Amazon and Costco had lower
 It was also clear that Amazon, Walmart, and Target were the most correlated companies to each other out of the group of five online retailers when comparing intergroup correlation.  Overall the correlation matrix was mostly useful here for comparing a company to itself over time and looking for changes in the correlations. And it was also useful for looking at companies’ correlation with the group mean. It did not turn out to be useful for tracking stock value volatility in correlation to financial stats because yearly quarterly reports do not have the granularity needed that quarterly reports would have provided. Also, not being able to retrieve the 52-week high and 52-week low stats of the companies’ stocks from the deprecated Google or Yahoo Finance APIs meant that I had to use sales per share instead, which was not as useful for measuring stock value volatility.
 
 ## Github Link
-https://github.com/MLBott/r-fiscal-correlation (with R files)
+https://github.com/MLBott/r-fiscal-correlation (with R file and dataset)
 
 
 
