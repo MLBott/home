@@ -8,12 +8,6 @@ categories:
 layout: post
 ---
 
-As in other arts, the definitions of amateur and professional are not entirely categorical. A professional photographer is likely to take photographs to make money, by salary or through the display, sale or use of those photographs.
-
-An amateur photographer may take photographs for pleasure and to record an event, emotion, place, as a person without a monetary motivation. A professional photographer may be an employee, for example of a newspaper, or may contract to cover a particular planned event such as a wedding or graduation, or to illustrate an advertisement.
-
-[Learn more about this theme]({{site.baseurl}}/about/)
-
 ## Method
 The yearly financial reports were scraped from internet financial databases. Once the data was collected, I calculated the aggregate or sum of the stats and created a column for that in MS Excel. Then I calculated a mean of the total stats and created a column for that also. The file was saved in csv format and imported into RStudio.
 
