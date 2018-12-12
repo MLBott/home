@@ -1,6 +1,6 @@
 ---
 title: Fiscal Correlation
-image: /images/samuel-zeller-103112.jpg
+image: /images/correlation-matrix.jpg
 author: Michael Bottom
 categories:
     - financial
