@@ -29,16 +29,8 @@ expertise:
 
 
 projects:
-  - title: Minimalist
+  - title: SQL Test
     image: /images/fischer-twins-662235-unsplash.jpg
-    link: '/portfolio/'
-
-  - title: Design
-    image: /images/bernard-hermant-592731-unsplash.jpg
-    link: '/portfolio/'
-
-  - title: Typography
-    image: /images/alexander-andrews-458492-unsplash.jpg
     link: '/portfolio/'
     
     
@@ -62,14 +54,4 @@ work:
     date: November 2018
     link: https://github.com/MLBott/sql-test
 
-  - title: Design
-    image: /images/bernard-hermant-592731-unsplash.jpg
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, voluptatibus, odio. Saepe dolorem magni qui, porro consectetur quia nobis! Doloribus mollitia id labore placeat autem cum rem, dolorum quos nesciunt.
-    company: Another Company
-    company: Another Company
 
-  - title: Typography
-    image: /images/alexander-andrews-458492-unsplash.jpg
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, voluptatibus, odio. Saepe dolorem magni qui, porro consectetur quia nobis! Doloribus mollitia id labore placeat autem cum rem, dolorum quos nesciunt.
-    ccompany: Yet Another Company
-    ccompany: Yet Another Company
