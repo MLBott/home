@@ -49,7 +49,7 @@ posts:
 work:
   - title: SQL Test
     image: /images/sql-test.jpg
-    description:  To recognize certain objects or actions occurring in videos video (i.e. cats, dogs, cars, water, trees). To arrange the data quickly and efficiently each item needs to have a primary key. Entities would be classified as action/object, tags for action/object, relevant start time, relevant stop time, video resolution, and frame reference clarity. The foreign key would be the site that the video clip was pulled from.  https://github.com/MLBott/sql-test
+    description:  Each item (i.e. cats, dogs, cars, water, trees) for object recogntion in a set of video clips needs to have a primary key. Entities would be classified as action/object, tags for action/object, relevant start time, relevant stop time, video resolution, and frame reference clarity. The foreign key would be the site that the video clip was pulled from.  https://github.com/MLBott/sql-test
     company: Self
     date: November 2018
 
