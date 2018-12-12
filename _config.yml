@@ -21,13 +21,12 @@ default-image: /images/avocado-cover.png # This image will be shown on sharing a
 
 # Author details shows up at the end of every article
 author:
-    name: John Doe
-    bio: "John is an astronaut. He likes to hang out with his friends when he's not in space. He writes his experiences here."
-    image: author-image.jpg # Choose a 200x200px image and place it inside /images directory.
-    facebook: https://facebook.com/
+    name: Michael Bottom
+    bio: "."
+    image: author-image.jpg # Choose a 200x200px image and place it inside /images directory
     twitter: https://twitter.com/
-    linkedin: https://www.linkedin.com/
-    github: https://github.com/
+    linkedin: https://linkedin.com/in/michael-bottom
+    github: https://github.com/mlbott
 
 
 #
@@ -43,7 +42,7 @@ author:
 # Choose 0 for custom colors
 # color-scheme: 1
 # If color-scheme is 0 then enter the color values below
-
+color-scheme: 5
 
 
 # Kramdown is the default markdown processor used. It is supported by Github.
