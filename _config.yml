@@ -1,19 +1,9 @@
-# ______ _            _                                   _
-# | ___ \ |          | |                                 | |
-# | |_/ / | __ _  ___| | _____ _   _ _ __ _ __ __ _ _ __ | |_
-# | ___ \ |/ _` |/ __| |/ / __| | | | '__| '__/ _` | '_ \| __|
-# | |_/ / | (_| | (__|   < (__| |_| | |  | | | (_| | | | | |_
-# \____/|_|\__,_|\___|_|\_\___|\__,_|_|  |_|  \__,_|_| |_|\__|
-# http://patorjk.com/software/taag/#p=testall&f=Blocks&t=Blackcurrant%0A
 
 # Almost all the things in the website can be customized from here.
 # Changing title and description according to your website requirement is important.
 
 
-title: Blackcurrant
-description: Blackcurrant is a minimal theme to show off your skills online.
-email: john@doe.com # The contact form submission will be done to this email address.
-url: https://blackcurrant.jekyll-themes.com
+email: mlbmike@gmail.com # The contact form submission will be done to this email address.
 default-image: /images/avocado-cover.png # This image will be shown on sharing any page on social media. For example: Homepage, about page etc. This image should be bigger than 200x200px. This image is not used for posts. Posts use their own image mentioned in individual posts.
 
 
