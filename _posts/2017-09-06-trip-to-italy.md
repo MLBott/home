@@ -1,10 +1,10 @@
 ---
-title: Trip to Italy!
+title: Fiscal Correlation
 image: /images/samuel-zeller-103112.jpg
-author: John Doe
+author: Michael Bottom
 categories:
-    - life
-    - experience
+    - financial
+    - correlation
 layout: post
 ---
 
