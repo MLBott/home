@@ -30,7 +30,7 @@ expertise:
 
 projects:
   - title: SQL Test
-    image: /sql-test.jpg
+    image: /images/sql-test.jpg
     link: '/portfolio/'
     
     
@@ -48,10 +48,9 @@ posts:
 
 work:
   - title: SQL Test
-    image: /images/fischer-twins-662235-unsplash.jpg
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, voluptatibus, odio. Saepe dolorem magni qui, porro consectetur quia nobis! Doloribus mollitia id labore placeat autem cum rem, dolorum quos nesciunt.
-    company: Comapny
+    image: /images/sql-test.jpg
+    description: https://github.com/MLBott/sql-test
+    Created to store video clips efficiently and allow for training of a neural network whose job it would be to recognize certain actions occurring in the video (i.e. running, jumping, standing, waving) and recognize certain objects occurring in the video (i.e. cats, dogs, cars, water, trees). To arrange the data quickly and efficiently each item needs to have a primary key. Entities would be classifyed as action/object, tags for action/object, relevant start time, relevant stop time, video resolution, and frame reference clarity. The foreign key would be the site that the video clip was pulled from.
     date: November 2018
-    link: https://github.com/MLBott/sql-test
 
 
