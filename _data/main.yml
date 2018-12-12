@@ -42,7 +42,7 @@ projects:
     link: '/portfolio/'
     
     
-projects-ds:
+posts:
   - title: Convolutional
     image: /images/author-image.jpg
     link: '/blog/'
