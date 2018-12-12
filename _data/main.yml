@@ -44,7 +44,7 @@ projects:
     
 posts:
   - title: Fiscal Correlation
-    image: /images/correlation-matrix.jpg
+    image: /images/correlationmatrix.jpg
     link: '/blog/'
   - title: N/A
     image: /images/author-image.jpg
