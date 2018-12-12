@@ -1,5 +1,5 @@
 <div class="projects-ds" data-aos="fade-up">
-  {% for post in paginator.posts %}
+  {% for item in site.data.main.projects-ds %}
     <a href="{{post.link}}" class="nostyle">
       <a class="nostyle" href="{{site.baseurl}}{{post.url}}">
           <div class="project borders cards" data-aos='fade-up'>
