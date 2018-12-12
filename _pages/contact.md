@@ -2,11 +2,11 @@
 layout: page
 title: Contact
 permalink: /contact/
-description: I care about my readers' opinions. Please leave a note or just say hello.
+description: If you have any comments or questions please leave a note. Or just say hello.
 ---
 
 ### Write to me
-I care about my readers' opinions. Please leave a note or just say hello.
+If you have any comments or questions please leave a note. Or just say hello.
 
 <form class="wj-contact rev" action="https://formspree.io/{{site.email}}" method="POST">
     <input type="email" name="email" placeholder="Email Address" class="input shadow">
@@ -21,6 +21,6 @@ I care about my readers' opinions. Please leave a note or just say hello.
 
 {% highlight html %}
 
-This form starts working once you update your email in configuration. Delete this line in the contact page found in the path _pages/contact.md
+Thanks!
 
 {% endhighlight %}
