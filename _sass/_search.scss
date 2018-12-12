@@ -1,0 +1,46 @@
+/***
+ *                                                                                         
+ *     ,---.                              ,--.         ,--.                         ,--.   
+ *    '   .-'  ,---.  ,--,--.,--.--. ,---.|  ,---.     |  |,--,--,  ,---. ,--.,--.,-'  '-. 
+ *    `.  `-. | .-. :' ,-.  ||  .--'| .--'|  .-.  |    |  ||      \| .-. ||  ||  |'-.  .-' 
+ *    .-'    |\   --.\ '-'  ||  |   \ `--.|  | |  |    |  ||  ||  || '-' ''  ''  '  |  |   
+ *    `-----'  `----' `--`--'`--'    `---'`--' `--'    `--'`--''--'|  |-'  `----'   `--'   
+ *                                                                 `--'                    
+ */
+
+#search-container {
+    margin: 3em auto;
+    text-align: center;
+    
+    input[type=text] {
+        outline: 0;
+        font-size: $base-fs;
+        padding: 10px 0 10px 10px;
+        border: none;
+        width: 90%;
+        border-radius: 1px;
+        box-shadow: 0 1px 0 0 rgba(0, 0, 0, .16), 0 0 0 1px rgba(0, 0, 0, .08)
+    }
+
+    input[type=text]:focus,
+    input[type=text]:hover {
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 0 0 1px rgba(0, 0, 0, .08);
+        border: none;
+        outline: 0;
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out
+    }
+
+            
+
+
+    li {
+        list-style: none;
+        display: block;
+
+    }
+}
+
+

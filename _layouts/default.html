@@ -1,0 +1,205 @@
+---
+layout: compress
+---
+
+
+<!--
+This layout is used in all pages. Making changes here will efect all pages. We recommend not to change anything here.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Prefetch DNS for faster page speed -->
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//google-analytics.com">
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+<link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
+<link rel="dns-prefetch" href="//ajax.googleapis.com">
+<link rel="dns-prefetch" href="//fonts.gstatic.com">
+{% if page.url contains 'blog' %}
+<!-- Prefetch disqus DNS for faster page speed -->
+<link rel="dns-prefetch" href="https://{{site.disqus}}.disqus.com/">
+{% endif %}
+
+{% if page.url == '/' %}
+<!-- Prerender next pages for faster page speed -->
+<link rel="prerender" href="{{site.baseurl}}/contact/" />
+<link rel="prerender" href="{{site.baseurl}}/blog/" />
+{% endif %}
+
+
+<!-- SEO meta tags -->
+{% seo %}
+
+{% if page.layout != 'post' %}
+<meta property="og:image" content="{{site.url}}{{site.default-image}}" />
+{% endif %}
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
+
+
+<!-- Fontawesome Icons CSS -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Icons -->
+<!--
+Replace these icons with your own.
+ -->
+
+<link rel="apple-touch-icon" sizes="60x60" href="{{site.baseurl}}/assets/img/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="114x114" href="{{site.baseurl}}/assets/img/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="152x152" href="{{site.baseurl}}/assets/img/apple-icon-152x152.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="{{site.baseurl}}/assets/img/android-icon-192x192.png">
+<link rel="shortcut icon" href="{{site.baseurl}}/favicon.ico" type="image/x-icon">
+<link rel="icon" href="{{site.baseurl}}/favicon.ico" type="image/x-icon">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+{% if site.analytics %}
+<!--
+Google Analytics code. <head> tag is the right place for analytics code as directed by Google. This is unofficial light version which loads blazing fast! Implemented for faster page load.
+ -->
+{% include analytics-lite.html %}
+{% endif %}
+
+
+</head>
+
+<body>
+	<div class="loader">
+			<div class="lds-ring">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+
+
+
+
+
+	<div class="wrapper">
+	    <div class="container-grid">
+           <div class="sidebar">
+               <div class="author-container shadow">
+                <div class="author"><img src="/images/author-image.jpg" width="100%" height="auto;" alt="{{site.title}}" onclick="location.href='/'"></div>
+                <div class="about text-center"><h1 class="title"><a href="/{{site.baseurl}}">John Doe</a></h1></div>
+                <div class="bio text-center"><p class="m0">A Web Developer</p></div>
+                <hr class="dashed">
+                <div class="social text-center">
+                    <ul class="portfolio p0">
+                        <li><a href="/portfolio/">Work</a></li>
+                        <li><a href="/blog/">Blog</a></li>
+                        <li><a href="/contact/">Contact</a></li>
+                    </ul>
+                    <ul class="sm p0 m0a">
+                        <li><a href="{{site.author.facebook}}"><i class="fa fa-facebook-square"></i></a></li>
+                        <li><a href="{{site.author.twitter}}"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="{{site.author.linkedin}}"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="{{site.author.github}}"><i class="fa fa-github"></i></a></li>
+                    </ul>
+                </div>
+                </div>
+           </div>
+           <div class="main">
+              <div class="main-container shadow">
+                   <div class="title-space">
+                       <h1>{{page.title}}</h1>
+                       <a href="/search/"><i class="fa fa-2x fa-search"></i></a>
+                   </div>
+                    <hr class="dashed">
+                    {{content}}
+                    <hr class="dashed">
+                    {% include footer.html %}
+               </div>
+           </div>
+
+	    </div>
+
+	</div>
+
+
+
+<!-- JQuery  -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
+<!-- Hide Loader on load -->
+<script>
+	$(document).ready(function() {
+		$(".loader").hide();
+
+	});
+</script>
+
+
+
+<!-- SlideDown on click -->
+<!-- <script>
+    $(document).ready(function(){
+        $(".doshow").click(function(){
+            var that = $(this).next('.noshow');
+            $(that).slideToggle('slow');
+            $('.noshow').not(that).slideUp('slow');
+        });
+        });
+</script> -->
+
+<!-- Reveal items on scroll -->
+<!-- <script type="text/javascript" src="{{site.baseurl}}/js/scrollreveal.min.js"></script> -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- <script type="text/javascript" src="{{site.baseurl}}/js/css-polyfills.min.js"></script> -->
+<!-- <script>
+    window.sr = ScrollReveal();
+            sr.reveal('.rev', { duration: 1000 });
+</script> -->
+
+<script>
+  AOS.init({
+		offset: 100,
+      duration: 800,
+      easing: 'ease-in-sine',
+      delay: 100,
+			once: true,
+			disable: 'mobile'
+	});
+</script>
+
+{% if page.type == 'home' %}
+<script>
+jQuery(document).ready(function(){
+	jQuery('.skillbar').each(function(){
+		jQuery(this).find('.skillbar-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		},5000);
+	});
+});
+</script>
+{% endif %}
+
+{% if page.layout == 'post' %}
+<script>
+$("button").click(function(){
+    $(".disqus").toggle();
+    $(".comments").toggle();
+});
+</script>
+
+
+
+
+
+{% endif %}
+</body>
+</html>

@@ -1,0 +1,61 @@
+expertise:
+  - title: HTML5
+    level: 45
+    color: rgb(247, 205, 182)
+
+  - title: CSS3
+    level: 65
+    color: rgb(113, 178, 222)
+
+  - title: jQuery
+    level: 50
+    color: rgb(80, 185, 185)
+
+  - title: PHP
+    level: 40
+    color: rgb(124, 142, 222)
+
+  - title: WordPress
+    level: 75
+    color: rgb(160, 158, 158)
+
+  - title: SEO
+    level: 90
+    color: rgb(112, 195, 148)
+
+  - title: Photoshop
+    level: 70
+    color: rgb(230, 133, 172)
+
+
+projects:
+  - title: Minimalist
+    image: /images/fischer-twins-662235-unsplash.jpg
+    link: '/portfolio/'
+
+  - title: Design
+    image: /images/bernard-hermant-592731-unsplash.jpg
+    link: '/portfolio/'
+
+  - title: Typography
+    image: /images/alexander-andrews-458492-unsplash.jpg
+    link: '/portfolio/'
+
+work:
+  - title: Minimalist
+    image: /images/fischer-twins-662235-unsplash.jpg
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, voluptatibus, odio. Saepe dolorem magni qui, porro consectetur quia nobis! Doloribus mollitia id labore placeat autem cum rem, dolorum quos nesciunt.
+    company: Comapny
+    date: November 2018
+
+  - title: Design
+    image: /images/bernard-hermant-592731-unsplash.jpg
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, voluptatibus, odio. Saepe dolorem magni qui, porro consectetur quia nobis! Doloribus mollitia id labore placeat autem cum rem, dolorum quos nesciunt.
+    company: Another Company
+    company: Another Company
+
+  - title: Typography
+    image: /images/alexander-andrews-458492-unsplash.jpg
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, voluptatibus, odio. Saepe dolorem magni qui, porro consectetur quia nobis! Doloribus mollitia id labore placeat autem cum rem, dolorum quos nesciunt.
+    ccompany: Yet Another Company
+    ccompany: Yet Another Company
