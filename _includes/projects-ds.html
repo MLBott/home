@@ -1,4 +1,5 @@
- {% for post in paginator.posts %}
+<div class="projects" data-aos="fade-up">
+  {% for post in paginator.posts %}
     <a class="nostyle" href="{{site.baseurl}}{{post.url}}">
         <div class="project borders cards" data-aos='fade-up'>
             <div class="project-image" style="background-image: url({{post.image}});">
@@ -10,8 +11,8 @@
         </div>
      </a>
   {% endfor %}
+</div>
 
-<div class="projects" data-aos="fade-up">
   {% for item in site.data.main.projects %}
     <a href="{{item.link}}" class="nostyle">
         <div class="project borders cards" data-aos="fade-up">
@@ -21,4 +22,4 @@
     </a>
   {% endfor %}
     
-</div>
+
