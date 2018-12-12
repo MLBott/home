@@ -1,14 +1,16 @@
 <div class="projects-ds" data-aos="fade-up">
   {% for post in paginator.posts %}
-    <a class="nostyle" href="{{site.baseurl}}{{post.url}}">
-        <div class="project borders cards" data-aos='fade-up'>
+    <a href="{{post.link}}" class="nostyle">
+      <a class="nostyle" href="{{site.baseurl}}{{post.url}}">
+          <div class="project borders cards" data-aos='fade-up'>
             <div class="project-image" style="background-image: url({{post.image}});">
             </div>
             <div class="content">
                 <h3 class="title">{{post.title}}</h3>
                 <p class="description">{{post.content | strip_html | truncate: 180 }}</p>
             </div>
-        </div>
+          </div>
+       </a>
      </a>
   {% endfor %}
 </div>
