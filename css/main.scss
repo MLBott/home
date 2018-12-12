@@ -48,7 +48,11 @@ $on-laptop:        800px;
     }
 }
 
-
+@import 'variables';
+@import '../node_modules/picnic/src/themes/default/colors';
+@import '../node_modules/picnic/src/themes/default/theme';
+@import '../node_modules/picnic/src/plugins/normalize/plugin';
+@import '../node_modules/picnic/src/plugins/grid/plugin';
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
