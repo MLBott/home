@@ -14,20 +14,21 @@ An amateur photographer may take photographs for pleasure and to record an event
 
 [Learn more about this theme]({{site.baseurl}}/about/)
 
-## Selling photographs
-The exclusive right of photographers to copy and use their products is protected by copyright. Countless industries purchase photographs for use in publications and on products.
+## Method
+The yearly financial reports were scraped from internet financial databases. Once the data was collected, I calculated the aggregate or sum of the stats and created a column for that in MS Excel. Then I calculated a mean of the total stats and created a column for that also. The file was saved in csv format and imported into RStudio.
 
-The photographs seen on magazine covers, in television advertising, on greeting cards or calendars, on websites, or on products and packages, have generally been purchased for this use, either directly from the photographer or through an agency that represents the photographer.
+In RStudio I verified the calculations of the means column in the financial stats, for data quality checking. I transposed the data, switching the x and y axis. I needed the stock name as column names. AMZN1 through AMZN6 refer to the Amazon financial stats for years 2012 through 2017. Similarly for WMT(1-6) for Walmart, TGT(1-6) for Target, BBY(1-6) for Best Buy, and COST(1-6) for Costco. I performed data reduction by removing the column that contained the names of the financial stats using the NULL keyword because it was not numerical data. I performed some test plotting and correlation checking. Then I ran a normalization function on the data. I assigned the data frame to a variable, and then plotted another correlation matrix.
 
-![Best Jekyll Theme]({{site.baseurl}}/images/beautiful-2150881_1280.jpg)
+![R Correlation Matrix]({{site.baseurl}}/images/Correlation-matrix-six-years.jpg.jpg)
 
-A photographer uses a contract to sell the "license" or use of his or her photograph with exact controls regarding how often the photograph will be used, in what territory it will be used (for example U.S. or U.K. or other), and exactly for which products.
 
-This is usually referred to as usage fee and is used to distinguish from production fees (payment for the actual creation of a photograph or photographs). An additional contract and royalty would apply for each additional use of the photograph.
 
-## Photo sharing    
-Many people upload their photographs to social networking websites and other websites, in order to share them with a particular group or with the general public. Those interested in legal precision may explicitly release them to the public domain or under a free content license. Some sites, including Wikimedia Commons, are punctilious about licenses and only accept pictures with clear information about permitted use.
+## Analysis    
+Looking at the correlation matrix, it was useful to compare one year of a stock of with its correlation to other years of the same stock. For example, comparing COST1 (Costco 2012) to the other Costco years showed it was markedly different from the other years (.9973822 correlation with 2017). 2012 was the year that Costco’s sales increased the most compared to the other years. Looking at BBY2 (Best Buy 2013) also showed a noticeable difference in correlation with the other Best Buy years (.9971878 correlation with 2016). That is the year that Best Buy’s sales dropped the most compared to the other years.
+The correlation matrix also showed that in 2017 both Amazon and Costco had lower correlation with the mean, (.9510914 correlation with the mean) (.9907068 correlation with the mean) respectively, than the other companies. And it matches up with both companies having the two largest increases in their liabilities of the group that year. 
 
-Source: [Wikipedia](https://en.wikipedia.org/wiki/Photographer){: target="_blank"}
+It was also clear that Amazon, Walmart, and Target were the most correlated companies to each other out of the group of five online retailers when comparing intergroup correlation.  Overall the correlation matrix was mostly useful here for comparing a company to itself over time and looking for changes in the correlations. And it was also useful for looking at companies’ correlation with the group mean. It did not turn out to be useful for tracking stock value volatility in correlation to financial stats because yearly quarterly reports do not have the granularity needed that quarterly reports would have provided. Also, not being able to retrieve the 52-week high and 52-week low stats of the companies’ stocks from the deprecated Google or Yahoo Finance APIs meant that I had to use sales per share instead, which was not as useful for measuring stock value volatility.
 
-Image Credits: [Pixabay](https://pixabay.com)
+
+
+
