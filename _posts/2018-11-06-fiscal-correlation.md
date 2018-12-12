@@ -13,7 +13,7 @@ The yearly financial reports were scraped from internet financial databases. Onc
 
 In RStudio I verified the calculations of the means column in the financial stats, for data quality checking. I transposed the data, switching the x and y axis. I needed the stock name as column names. AMZN1 through AMZN6 refer to the Amazon financial stats for years 2012 through 2017. Similarly for WMT(1-6) for Walmart, TGT(1-6) for Target, BBY(1-6) for Best Buy, and COST(1-6) for Costco. I performed data reduction by removing the column that contained the names of the financial stats using the NULL keyword because it was not numerical data. I performed some test plotting and correlation checking. Then I ran a normalization function on the data. I assigned the data frame to a variable, and then plotted another correlation matrix.
 
-![R Correlation Matrix]({{site.baseurl}}/images/Correlation-matrix-six-years.jpg.jpg)
+![R Correlation Matrix]({{site.baseurl}}/images/Correlation-matrix-six-years.jpg)
 
 
 
