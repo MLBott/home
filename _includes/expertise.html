@@ -3,7 +3,7 @@
 
 {% for item in site.data.main.expertise %}
 <div class="skillbar clearfix" data-percent="{{item.level}}%">
-	<div class="skillbar-title" style="background: {{item.color | color_darken: 10}}"><span>{{item.title}}</span></div>
+	<div class="skillbar-title" style="background: {{item.color | color_darken: 100}}"><span>{{item.title}}</span></div>
 	<div class="skillbar-bar" style="background: {{item.color}};"></div>
 	<div class="skill-bar-percent">{{item.level}}</div>
 </div>
