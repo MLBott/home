@@ -7,6 +7,7 @@ categories:
     - correlation
 layout: post
 ---
+Data mining and analysis: Correlation matrix of six years of annual fiscal stats for five online retailers
 
 ## Method
 The yearly financial reports were scraped from internet financial databases. Once the data was collected, I calculated the aggregate or sum of the stats and created a column for that in MS Excel. Then I calculated a mean of the total stats and created a column for that also. The file was saved in csv format and imported into RStudio.
