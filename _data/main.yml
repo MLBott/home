@@ -1,7 +1,7 @@
 expertise:
   - title: Python
     level: 85
-    color: rgb(247, 205, 182)
+    color: rgb(143, 153, 163)
 
   - title: Java
     level: 75
@@ -25,7 +25,7 @@ expertise:
 
   - title: Unix
     level: 40
-    color: rgb(230, 133, 172)
+    color: rgb(89, 89, 166)
 
 
 projects:
