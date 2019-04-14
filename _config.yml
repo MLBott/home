@@ -3,13 +3,13 @@
 # Changing title and description according to your website requirement is important.
 
 
-email: mlbmike@gmail.com # The contact form submission will be done to this email address.
+email: mlbmike@gmail.com # The contact form submission will be sent to this email address.
 default-image: /images/avocado-cover.png # This image will be shown on sharing any page on social media. For example: Homepage, about page etc. This image should be bigger than 200x200px. This image is not used for posts. Posts use their own image mentioned in individual posts.
 
 
 
 
-# Author details shows up at the end of every article
+# Author details shows up at the end of every article.
 author:
     name: Michael Bottom
     bio: "."
@@ -67,7 +67,7 @@ share: yes
 
 
 # Comments by Disqus
-# Sign up with Disqus to get your shortcode. Leave it blank if you do not want to run diqus code on the website.
+# Sign up with Disqus to get your shortcode. Leave it blank if you do not want to run Disqus code on the website.
 # Leave it blank to remove disqus completely.
 disqus: webjeda-demo
 
@@ -106,7 +106,7 @@ exclude:
     - .git
 
 
-# These plugins are supported by github by default and can be installed locally using ruby gems
+# These plugins are supported by github by default and can be installed locally using ruby gems.
 plugins:
     - jekyll-sitemap    # Adds sitemap to the website at /sitemap.xml
     - jekyll-feed       # Adds feed to the website at /feed.xml
