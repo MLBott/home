@@ -10,6 +10,7 @@ All these included files are found inside '_includes' folder.
 You can edit them there.
  -->
 <head>
+  {% include analytics-lite.html %}
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154362549-1"></script>
   <script>
@@ -18,11 +19,7 @@ You can edit them there.
     gtag('js', new Date());
 
     gtag('config', 'UA-154362549-1');
-  </script>
-
-  {% if site.google_analytics and jekyll.environment == 'production' %}
-  {% include analytics-lite.html %}
-  {% endif %}
+ </script>
 </head>
 
 <p></p>
