@@ -1,16 +1,18 @@
 # mlbott.github.io
-Personal Webpage
+Personal Website
 
 ## Descrition
-Personal webpage to showcase my porfolio and relevant webpage links.
+Main fuctions:
+portfolio,
+professional links,
+social links,
+potential blog
 
 ## Details
 www.michaelbottom.me
 
 ## Tech Stack
 > JavaScript
-
 > HTML
-
 > CSS
 
