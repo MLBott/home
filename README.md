@@ -13,8 +13,8 @@ www.michaelbottom.me
 
 ## Tech Stack
 > JavaScript
-
+>
 > HTML
-
+>
 > CSS
 
