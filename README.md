@@ -2,7 +2,7 @@
 Personal Website - also reached at www.michaelbottom.me
 
 ## Descrition
-Main fuctions:
+Main functions:
 portfolio,
 professional links,
 social links,
