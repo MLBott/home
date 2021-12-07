@@ -35,11 +35,11 @@ projects:
     
     
 posts:
+  - title: Task List
+    image: /images/author-image.jpg
+    link: '/blog/'
   - title: Fiscal Correlation
     image: /images/correlationmatrix.jpg
-    link: '/blog/'
-  - title: N/A
-    image: /images/author-image.jpg
     link: '/blog/'
   - title: N/A
     image: /images/author-image.jpg
