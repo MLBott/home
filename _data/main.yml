@@ -39,7 +39,7 @@ projects:
     
 posts:
   - title: Task List
-    image: /images/author-image.jpg
+    image: /images/task-list-img-1.jpg
     link: '/blog/'
   - title: Fiscal Correlation
     image: /images/correlationmatrix.jpg
