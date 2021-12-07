@@ -50,7 +50,7 @@ posts:
   
 
 work:
-  - title: [Teamwork Website](https://honestwork-app.herokuapp.com)
+  - title: Teamwork Website https://honestwork-app.herokuapp.com
     image: /images/teamwork-img-1.jpg
     description:  A work website blueprint that would facilitate coworker team projects and gamification of team collaboration. Functionality includes - Sign-up button, settings button, create a new project, coworker leaderboard, Terms of Service page, User Privacy page.  [Deployed on Heroku](https://honestwork-app.herokuapp.com)
     company: Group Demo [Deployed on Heroku](https://honestwork-app.herokuapp.com)
