@@ -1,3 +1,12 @@
+---
+title: Task List App
+image: /images/task-list-img-1.png
+author: Michael Bottom
+categories:
+    - app
+    - react
+layout: post
+---
 
 # React Native Expo Task List
 
