@@ -52,16 +52,14 @@ posts:
 work:
   - title: Teamwork Website
     image: /images/teamwork-img-1.jpg
-    description:  A work website blueprint that would facilitate coworker team projects and gamification of team collaboration. Functionality includes - Sign-up button, settings button, create a new project, coworker leaderboard, Terms of Service page, User Privacy page.  <a href="https://honestwork-app.herokuapp.com">Deployed on Heroku</a>
+    description:  A work website blueprint that would facilitate coworker team projects and gamification of team collaboration. Functionality includes - Sign-up button, settings button, create a new project, coworker leaderboard, Terms of Service page, User Privacy page.  <a href="https://honestwork-app.herokuapp.com" target="_blank" rel="noopener noreferrer">Deployed on Heroku</a>  <a href="https://github.com/MLBott/honest-work" target="_blank" rel="noopener noreferrer">GitHub</a>
     company: Group Demo
     date: November 2020
-    github: https://github.com/MLBott/honest-work
   - title: SQL Test
     image: /images/sql-test.jpg
-    description:  Each item (i.e. cats, dogs, cars, water, trees) for object recogntion in a set of video clips needs to have a primary key. Entities would be classified as action/object, tags for action/object, relevant start time, relevant stop time, video resolution, and frame reference clarity. The foreign key would be the site that the video clip was pulled from.
+    description:  Each item (i.e. cats, dogs, cars, water, trees) for object recogntion in a set of video clips needs to have a primary key. Entities would be classified as action/object, tags for action/object, relevant start time, relevant stop time, video resolution, and frame reference clarity. The foreign key would be the site that the video clip was pulled from.  <a href="https://github.com/MLBott/sql-test" target="_blank" rel="noopener noreferrer">GitHub</a>
     company: Self
     date: November 2018
-    github: https://github.com/MLBott/sql-test
     
 
 
