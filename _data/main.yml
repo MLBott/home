@@ -29,6 +29,9 @@ expertise:
 
 
 projects:
+  - title: Teamwork Website
+    image: /images/author-image.jpg
+    link: '/portfolio/'
   - title: SQL Test
     image: /images/sql-test.jpg
     link: '/portfolio/'
