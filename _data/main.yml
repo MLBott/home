@@ -50,11 +50,11 @@ posts:
   
 
 work:
-  - title: Teamwork Website
+  - title: [Teamwork Website](https://honestwork-app.herokuapp.com)
     image: /images/teamwork-img-1.jpg
     description:  A work website blueprint that would facilitate coworker team projects and gamification of team collaboration. Functionality includes - Sign-up button, settings button, create a new project, coworker leaderboard, Terms of Service page, User Privacy page.  [Deployed on Heroku](https://honestwork-app.herokuapp.com)
-    company: Group Demo
-    date: November 2020
+    company: Group Demo [Deployed on Heroku](https://honestwork-app.herokuapp.com)
+    date: November 2020 [Deployed on Heroku](https://honestwork-app.herokuapp.com)
     github: https://github.com/MLBott/honest-work
   - title: SQL Test
     image: /images/sql-test.jpg
