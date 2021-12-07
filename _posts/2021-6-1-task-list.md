@@ -21,4 +21,5 @@ Install Expo following the documentation: https://docs.expo.dev/get-started/inst
 Run the command "expo start" in a console at the project folder.
 
 ## Github Link
-https://github.com/MLBott/task-list 
+<a href="https://github.com/MLBott/task-list " target="_blank" rel="noopener noreferrer">https://github.com/MLBott/task-list </a>
+
