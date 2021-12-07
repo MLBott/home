@@ -19,9 +19,9 @@ expertise:
     level: 75
     color: rgb(160, 158, 158)
 
-  - title: JS Libraries
-    level: 20
-    color: rgb(112, 195, 148)
+  #- title: JS Libraries
+  #  level: 20
+  #  color: rgb(112, 195, 148)
 
   - title: Node.js
     level: 40
