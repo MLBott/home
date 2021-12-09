@@ -1,5 +1,5 @@
 # mlbott.github.io
-Personal Website - also reached at www.michaelbottom.me
+Personal Website - also reachable @ www.michaelbottom.me
 
 ## Descrition
 Main functions:
