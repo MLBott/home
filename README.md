@@ -11,7 +11,7 @@ potential blog
 ## Details
 Utilizes a page/blog format to display projects and blog posts. Main page contains links on the left side and a programming knowledge progress bar in the center pane.
 
-## Tech Stack
+## Tools
 > JavaScript
 >
 > HTML
